@@ -1,0 +1,100 @@
+/*PALLETE 
+cream = #EEE8DA
+evergreen = #5C6458
+teracota = #B5693D
+peach = #E9C9BB
+*/
+
+/*variables */
+:root{
+  --teracota: #da582d;
+  --green-deep: #5C6458;
+  --off-white: #faf0de;
+  --cream: #e7c397;
+}
+
+
+/* Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f3f4f6; /* light gray */
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  font-family: "EB Garamond", serif;
+  font-size: 18px;
+}
+
+/* Canvas Container */
+.canvas {
+  background: white;
+  width: 100%;
+  max-width: 400px !important ; 
+  min-height: 100vh;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+}
+
+/* boxes */
+
+.front-with-names {
+    background: var(--green-deep);
+    color:  var(--off-white);
+    font-size: 48px;
+}
+.invitation-main{
+  background: var(--off-white);
+  color:  var(--teracota);
+  font-size: 24px;
+}
+
+.rsvp{
+  background: var(--cream);
+  color: var(--off-white);
+  justify-content: center;
+}
+
+.details{
+  background: var(--green-deep);
+  color:  var(--off-white);
+}
+
+.thank-you-footer{
+  font-size: 18px;
+}
+
+img {
+  max-width: 400px ;
+}
+
+/* Text styling */
+
+.invitation-text-prosklisi{
+  margin-top: 2.5rem;
+  text-align: center;
+}
+
+.date-time{
+  font-size: 100px;
+  color: var(--green-deep);
+
+}
+
+.details-text{
+  font-size: 80px;
+  color: var(--off-white);
+  text-align: center;
+
+}
+
+.lista-gamou{
+  text-align: center;
+}
+
