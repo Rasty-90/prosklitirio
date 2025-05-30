@@ -23,7 +23,6 @@ peach = #E9C9BB
 
 body {
   background: #f3f4f6; /* light gray */
-  padding: 1rem;
   display: flex;
   justify-content: center;
   font-family: "EB Garamond", serif;
@@ -59,6 +58,7 @@ body {
   background: var(--cream);
   color: var(--off-white);
   justify-content: center;
+  padding: 1rem;
 }
 
 .details{
@@ -68,6 +68,12 @@ body {
 
 .thank-you-footer{
   font-size: 18px;
+}
+
+.plano{
+  position: relative;
+  height: 300px;          
+  overflow: hidden;
 }
 
 img {
@@ -98,3 +104,16 @@ img {
   text-align: center;
 }
 
+/* grammes programmatos */
+
+.vertical-line {
+  position: absolute;
+  left: 50%;
+  height: 300px;
+  top: 0;
+  bottom: 0;
+  width: 5px;
+  background-color: var(--green-deep);
+  transform: translateX(-50%);
+  z-index: 0;
+}
