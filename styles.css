@@ -13,7 +13,6 @@ peach = #E9C9BB
   --cream: #e7c397;
 }
 
-
 /* Base Styles */
 * {
   margin: 0;
@@ -50,7 +49,7 @@ body {
 .invitation-main{
   background: var(--off-white);
   color:  var(--teracota);
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .rsvp{
@@ -71,9 +70,10 @@ body {
 
 .plano{
   position: relative;
-  height: 500px;          
+  height: 400px;          
   overflow: hidden;
   margin: 0 auto;
+  max-width: 250px ;
 }
 
 img {
@@ -109,17 +109,17 @@ img {
 .vertical-line {
   position: absolute;
   left: 50%;
-  height: 500px;
+  height: 400px;
   top: 0;
   bottom: 0;
-  width: 5px;
+  width: 3px;
   background-color: var(--green-deep);
   transform: translateX(-50%);
   z-index: 0;
 }
 
 .horizontal-line {
-  height: 4px;
+  height: 3px;
   width: 120px;
   background-color: var(--green-deep);
   z-index: 0;
