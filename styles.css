@@ -80,6 +80,15 @@ img {
   max-width: 400px ;
 }
 
+/*buttons */
+
+button {
+  border-radius: 4px;
+  border: 2px solid var(--teracota);
+  padding: 5px 10px;
+  background-color: transparent;
+}
+
 /* Text styling */
 
 .invitation-text-prosklisi{
