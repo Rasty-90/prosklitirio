@@ -56,8 +56,8 @@ body {
 .rsvp{
   background: var(--cream);
   color: var(--off-white);
-  justify-content: center;
   padding: 1rem;
+  justify-content: center;
 }
 
 .details{
@@ -79,8 +79,15 @@ body {
 .plan-horizontal-wrapper{
   position: relative;
   height: 60px;
-  width: 250;
+  width: 250px;
   margin: 0 auto;
+}
+
+.rsvp-content{
+  width: 300px;
+  position: relative;
+  z-index: 1;
+  margin-top: 0;
 }
 
 /*images */
@@ -91,6 +98,14 @@ body {
   transform: translateY(-50%);
   width: 40px;
   z-index: 1;  
+}
+
+.rsvp-border{
+  position: absolute;
+  z-index: 0; 
+  width: 320px;
+  margin: auto;
+
 }
 
 /*buttons */
