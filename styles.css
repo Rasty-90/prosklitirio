@@ -11,6 +11,7 @@ peach = #E9C9BB
   --green-deep: #5C6458;
   --off-white: #faf0de;
   --cream: #e7c397;
+  --offset-plano: 30px;
 }
 
 /* Base Styles */
@@ -71,13 +72,25 @@ body {
 .plano{
   position: relative;
   height: 400px;          
-  overflow: hidden;
   margin: 0 auto;
   max-width: 250px ;
 }
 
-img {
-  max-width: 400px ;
+.plan-horizontal-wrapper{
+  position: relative;
+  height: 60px;
+  width: 250;
+  margin: 0 auto;
+}
+
+/*images */
+
+.plan-image {
+  position: absolute;
+  right: 0;
+  transform: translateY(-50%);
+  width: 40px;
+  z-index: 1;  
 }
 
 /*buttons */
@@ -113,6 +126,25 @@ button {
   text-align: center;
 }
 
+.text-programma {
+  position: relative;
+  width: 100px;
+  z-index: 1; 
+  outline: 1px solid red;
+ 
+}
+
+.text-left-align{
+  margin-right: auto;
+  margin-left: 0;
+}
+
+.text-right-align{
+  margin-left: auto;
+  margin-right: 0;
+  text-align: right
+}
+
 /* grammes programmatos */
 
 .vertical-line {
@@ -125,13 +157,15 @@ button {
   background-color: var(--green-deep);
   transform: translateX(-50%);
   z-index: 0;
+  outline: 1px solid green;
 }
 
 .horizontal-line {
   height: 3px;
   width: 120px;
   background-color: var(--green-deep);
-  z-index: 0;
+  position: relative;
   margin: 0 auto;
-  transform: translateX(-30px);
+  transform: translateY(-50%);
+  z-index: 1;
 }
