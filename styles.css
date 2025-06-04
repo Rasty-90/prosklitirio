@@ -150,14 +150,13 @@ button {
 .vertical-line {
   position: absolute;
   left: 50%;
-  height: 400px;
+  height: 360px;
   top: 0;
   bottom: 0;
   width: 3px;
   background-color: var(--green-deep);
   transform: translateX(-50%);
   z-index: 0;
-  outline: 1px solid green;
 }
 
 .horizontal-line {
