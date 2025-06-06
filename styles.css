@@ -193,3 +193,16 @@ button {
   transform: translateY(-50%);
   z-index: 1;
 }
+
+/*RSVP columns */
+.column {
+  float: left;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
