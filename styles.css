@@ -51,6 +51,7 @@ body {
   background: var(--off-white);
   color:  var(--teracota);
   font-size: 18px;
+  padding: 1rem;
 }
 
 .rsvp{
@@ -104,7 +105,9 @@ body {
   position: absolute;
   z-index: 0; 
   width: 320px;
+  height:100%;
   margin: auto;
+  object-fit: fill;
 
 }
 
@@ -115,12 +118,12 @@ button {
   border: 2px solid var(--teracota);
   padding: 5px 10px;
   background-color: transparent;
+  color: var(--off-white);
 }
 
 /* Text styling */
 
 .invitation-text-prosklisi{
-  margin-top: 2.5rem;
   text-align: center;
 }
 
