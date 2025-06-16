@@ -93,12 +93,19 @@ body {
 
 /*images */
 
+.front-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 .plan-image {
   position: absolute;
   right: 0;
   transform: translateY(-50%);
   width: 40px;
   z-index: 1;  
+
 }
 
 .rsvp-border{
@@ -119,6 +126,16 @@ button {
   padding: 5px 10px;
   background-color: transparent;
   color: var(--off-white);
+}
+
+.rsvp-button{
+}
+
+/*form elements */
+.rsvp-textbox{
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid var(--off-white);
 }
 
 /* Text styling */
@@ -194,6 +211,7 @@ button {
 }
 
 /*RSVP columns */
+
 .column {
   float: left;
 }
@@ -206,9 +224,13 @@ button {
 
 .right {
   width: 60%;
-   outline: 1px solid green;
+  outline: 1px solid green;
 }
 
 .row {
-   width: 100%
+  width: 100%
+}
+
+.center {
+   width: 100%;
 }
