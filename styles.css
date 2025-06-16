@@ -26,6 +26,7 @@ body {
   display: flex;
   justify-content: center;
   font-family: "EB Garamond", serif;
+  font-size: 18px;
 }
 
 /* Canvas Container */
@@ -129,13 +130,25 @@ button {
 }
 
 .rsvp-button{
+  background-color: var(--teracota);
 }
 
 /*form elements */
 .rsvp-textbox{
-  background-color: transparent;
   border: none;
   border-bottom: 2px solid var(--off-white);
+  background-color: transparent;
+}
+
+.notebook-textarea {
+  width: 100%;            /* full width of the container */
+  height: 100px;          /* taller area to show more text */
+  font-size: 16px;        /* readable font */
+  line-height: 24px;      /* spacing between lines */
+  padding: 12px;
+  border: 2px solid var(--off-white);;
+  background-color: transparent;
+
 }
 
 /* Text styling */
