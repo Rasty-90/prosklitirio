@@ -47,6 +47,7 @@ body {
     background: var(--green-deep);
     color:  var(--off-white);
     font-size: 48px;
+    padding: 1rem;
 }
 .invitation-main{
   background: var(--off-white);
@@ -65,10 +66,12 @@ body {
 .details{
   background: var(--green-deep);
   color:  var(--off-white);
+  padding: 1rem;
 }
 
 .thank-you-footer{
   font-size: 18px;
+  padding: 1rem;
 }
 
 .plano{
@@ -178,7 +181,6 @@ button {
   width: 100px;
   z-index: 1; 
   outline: 1px solid red;
- 
 }
 
 .text-left-align{
@@ -197,6 +199,10 @@ button {
   color: var(--green-deep);
   writing-mode: vertical-rl;
   text-orientation: upright;
+}
+
+.details-heading{
+  font-size: 28px;
 }
 
 /* grammes programmatos */
