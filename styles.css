@@ -118,8 +118,7 @@ body {
 iframe{
   width:100%;
   height:350px;
-  border:0;
-          
+  border:0;  
 }
 
 .rsvp-border{
@@ -142,6 +141,13 @@ button {
   color: var(--off-white);
 }
 
+.map-button{
+  background-color: var(--off-white);
+  border: 2px solid var(--off-white);
+  color: var(--teracota);
+}
+
+
 .rsvp-button{
   background-color: var(--teracota);
 }
@@ -155,9 +161,9 @@ button {
 
 .notebook-textarea {
   width: 100%;            /* full width of the container */
-  height: 100px;          /* taller area to show more text */
+  height: 70px;          /* taller area to show more text */
   font-size: 16px;        /* readable font */
-  line-height: 24px;      /* spacing between lines */
+  line-height: 18px;      /* spacing between lines */
   padding: 12px;
   border: 2px solid var(--off-white);;
   background-color: transparent;
@@ -211,7 +217,7 @@ button {
 }
 
 .details-heading{
-  font-size: 28px;
+  font-size: 30px;
 }
 
 /* grammes programmatos */
@@ -247,23 +253,19 @@ button {
 .left {
   width: 40%;
   height: 100%;
-  outline: 1px solid red;
 }
 
 .right {
   width: 60%;
-  outline: 1px solid green;
 }
 
 .left-alt {
   width: 60%;
-  height: 100%;
-  outline: 1px solid red;
+  height: 100%;;
 }
 
 .right-alt {
   width: 40%;
-  outline: 1px solid green;
 }
 
 .row {
