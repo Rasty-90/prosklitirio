@@ -147,6 +147,14 @@ button {
   color: var(--teracota);
 }
 
+a.button{
+  border-radius: 4px;
+  background-color: var(--off-white);
+  border: 2px solid var(--off-white);
+  color: var(--teracota);
+  text-decoration: none;
+}
+
 
 .rsvp-button{
   background-color: var(--teracota);
