@@ -135,7 +135,6 @@ iframe{
   width:23%;
   display: block;
   margin: auto;
-
 }
 
 /*buttons */
@@ -165,6 +164,8 @@ a.button{
 
 .rsvp-button{
   background-color: var(--teracota);
+   margin: 0 auto;
+    display: block;
 }
 
 /*form elements */
@@ -182,7 +183,6 @@ a.button{
   padding: 12px;
   border: 2px solid var(--off-white);;
   background-color: transparent;
-
 }
 
 /* Text styling */
@@ -200,7 +200,6 @@ a.button{
   font-size: 80px;
   color: var(--off-white);
   text-align: center;
-
 }
 
 .lista-gamou{
@@ -270,13 +269,10 @@ a.button{
   height: 100%;
   justify-content: center;
   align-items: center;
-  outline: solid 2px red;
 }
 
 .right {
   width: 60%;
-  outline: solid 2px red;
-
 }
 
 .left-alt {
