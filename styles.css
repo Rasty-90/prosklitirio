@@ -107,9 +107,19 @@ body {
   position: absolute;
   right: 0;
   transform: translateY(-50%);
-  width: 40px;
+  width: 60px;
   z-index: 1;  
+}
 
+.plan-image-alt{
+   width: 120px;
+}
+
+iframe{
+  width:100%;
+  height:350px;
+  border:0;
+          
 }
 
 .rsvp-border{
@@ -179,8 +189,7 @@ button {
 .text-programma {
   position: relative;
   width: 100px;
-  z-index: 1; 
-  outline: 1px solid red;
+  z-index: 1;
 }
 
 .text-left-align{
@@ -243,6 +252,17 @@ button {
 
 .right {
   width: 60%;
+  outline: 1px solid green;
+}
+
+.left-alt {
+  width: 60%;
+  height: 100%;
+  outline: 1px solid red;
+}
+
+.right-alt {
+  width: 40%;
   outline: 1px solid green;
 }
 
