@@ -49,8 +49,8 @@ body {
 /* boxes */
 
 .front-with-names {
-    color: var(--green-deep);
-    background:  var(--off-white);
+    background: var(--green-deep);
+    color:  var(--off-white);
     font-size: 48px;
     padding: 1rem;
 }
