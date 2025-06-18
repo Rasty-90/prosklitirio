@@ -30,7 +30,7 @@ body {
   background: #f3f4f6; /* light gray */
   display: flex;
   justify-content: center;
-  font-family: "EB Garamond", serif;
+  font-family: "Playpen Sans", serif;
   font-size: 18px;
 }
 
@@ -106,6 +106,9 @@ body {
   max-width: 100%;
   height: auto;
   display: block;
+  padding-top: 100px;
+ 
+
 }
 
 .plan-image {
@@ -240,9 +243,7 @@ a.button{
 }
 
 .handwrite{
-  font-family: "AC-Cyberella";
-  font-size: 22px;
-  font-weight: 300;
+  font-family: "Mansalva";
 }
 
 /* grammes programmatos */
