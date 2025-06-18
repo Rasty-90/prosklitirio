@@ -56,21 +56,21 @@ body {
 }
 .invitation-main{
   background: var(--off-white);
-  color:  var(--teracota);
+  color:  var(--green-deep);
   font-size: 18px;
   padding: 1rem;
 }
 
 .rsvp{
-  background: var(--cream);
-  color: var(--off-white);
+  background: var(--off-white);
+  color: var(--green-deep);
   padding: 1rem;
   justify-content: center;
 }
 
 .details{
-  background: var(--green-deep);
-  color:  var(--off-white);
+  background: var(--off-white);
+  color:  var(--green-deep);
   padding: 1rem;
 }
 
@@ -94,10 +94,7 @@ body {
 }
 
 .rsvp-content{
-  position: relative;
   z-index: 1;
-  margin-top: 0;
-  display: flex;
 }
 
 /*images */
@@ -179,7 +176,7 @@ a.button{
 /*form elements */
 .rsvp-textbox{
   border: none;
-  border-bottom: 2px solid var(--off-white);
+  border-bottom: 2px solid var(--green-deep);
   background-color: transparent;
 }
 
@@ -189,7 +186,7 @@ a.button{
   font-size: 16px;        /* readable font */
   line-height: 18px;      /* spacing between lines */
   padding: 12px;
-  border: 2px solid var(--off-white);;
+  border: 2px solid var(--green-deep);;
   background-color: transparent;
 }
 
@@ -205,8 +202,8 @@ a.button{
 }
 
 .details-text{
-  font-size: 80px;
-  color: var(--off-white);
+  font-size: 70px;
+  color: var(--teracota);
   text-align: center;
 }
 
@@ -232,18 +229,21 @@ a.button{
 }
 
 .rsvp-title{
-  font-size: 100px;
-  color: var(--green-deep);
-  writing-mode: vertical-rl;
-  text-orientation: upright;
+  font-size: 50px;
+  font-family: "Mansalva";
+  color: var(--teracota);
+  text-align: center;
 }
 
 .details-heading{
   font-size: 30px;
+  color: var(--teracota);
+  font-family: "Mansalva";
 }
 
 .handwrite{
   font-family: "Mansalva";
+  color:  var(--teracota);
 }
 
 /* grammes programmatos */
