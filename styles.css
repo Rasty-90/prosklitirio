@@ -14,6 +14,11 @@ peach = #E9C9BB
   --offset-plano: 30px;
 }
 
+@font-face {
+  font-family: AC-Cyberella;
+  src: url(assets/ACCyberella/AC-Cyberella_Unicode.ttf);
+}
+
 /* Base Styles */
 * {
   margin: 0;
@@ -232,6 +237,12 @@ a.button{
 
 .details-heading{
   font-size: 30px;
+}
+
+.handwrite{
+  font-family: "AC-Cyberella";
+  font-size: 22px;
+  font-weight: 300;
 }
 
 /* grammes programmatos */
