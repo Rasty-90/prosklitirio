@@ -185,6 +185,7 @@ a.button{
 
 .invitation-text-prosklisi{
   text-align: center;
+  padding-top:30px;
 }
 
 .date-time{
@@ -281,11 +282,12 @@ a.button{
 
 .left-alt {
   width: 60%;
-  height: 100%;;
+  height: 100%;
 }
 
 .right-alt {
   width: 40%;
+
 }
 
 .row {
