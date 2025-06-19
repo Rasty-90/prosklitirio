@@ -129,7 +129,6 @@ iframe{
   position: absolute;
   z-index: 0; 
   width: 320px;
-  margin: 0 0 0 10px;
   object-fit: fill;
 }
 
