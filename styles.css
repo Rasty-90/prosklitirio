@@ -47,7 +47,6 @@ body {
 }
 
 /* boxes */
-
 .front-with-names {
     color: var(--green-deep);
     background:  var(--off-white);
@@ -130,6 +129,14 @@ iframe{
   z-index: 0; 
   width: 320px;
   object-fit: fill;
+  margin: 0 0 0 -20px;
+}
+
+.rsvp-border-rotated{
+  z-index: 0; 
+  width: 320px;
+  object-fit: fill;
+  margin: -150px 0px -0px 20px;
 }
 
 /*buttons */
@@ -155,7 +162,6 @@ a.button{
   color: var(--teracota);
   text-decoration: none;
 }
-
 
 .rsvp-button{
   background-color: var(--teracota);
@@ -236,6 +242,10 @@ a.button{
 .handwrite{
   font-family: "Mansalva";
   color:  var(--teracota);
+}
+
+.location {
+  font-size: 30px;
 }
 
 /* grammes programmatos */
