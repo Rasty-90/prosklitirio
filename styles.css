@@ -53,7 +53,7 @@ body {
     color: var(--green-deep);
     background:  var(--off-white);
     font-size: 48px;
-    padding: 1rem;
+    padding: 0rem;
 }
 .invitation-main{
   background: var(--off-white);
@@ -101,7 +101,7 @@ body {
 /*images */
 
 .front-image {
-  max-width: 100%;
+  max-width: 130%;
   height: auto;
   display: block;
   padding-top: 0px;
