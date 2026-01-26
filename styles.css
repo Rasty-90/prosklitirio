@@ -8,7 +8,7 @@ peach = #E9C9BB
 /*variables */
 :root{
   --teracota: #da582d;
-  --green-deep: #660000;
+  --bordeaux: #660000;
   --off-white: #faf0de;
   --cream: #e7c397;
   --offset-plano: 30px;
@@ -17,8 +17,16 @@ peach = #E9C9BB
 @font-face {
   font-family: AC-Cyberella;
   src: url(assets/ACCyberella/AC-Cyberella_Unicode.ttf);
-  font-family: Linz;
-  src: url(assets/CAT_linz/CATLinz_1.8.ttf);
+}
+
+@font-face {
+  font-family: Junicode;
+  src: url(assets/junicode/Junicode.ttf);
+}
+
+@font-face {
+  font-family: kreadon;
+  src: url(assets/kreadon/Kreadon-fonts/fonts/ttf/Kreadon-Regular.ttf);
 }
 
 /* Base Styles */
@@ -32,7 +40,7 @@ body {
   background: #f3f4f6; /* light gray */
   display: flex;
   justify-content: center;
-  font-family: "Playpen Sans", serif;
+  font-family: "kreadon";
   font-size: 18px;
 }
 
@@ -50,7 +58,7 @@ body {
 
 /* boxes */
 .front-with-names {
-    color: var(--green-deep);
+    color: var(--bordeaux);
     background:  var(--off-white);
     font-size: 30px;
     padding: 0rem;
@@ -60,38 +68,25 @@ body {
   color:  var(--green-deep);
   font-size: 18px;
   padding: 1rem;
+   font-family: "kreadon";
 }
 
 .rsvp{
   background: var(--off-white);
-  color: var(--green-deep);
+  color: var(--bordeaux);
   padding: 1rem 1rem 0rem 1rem;
   justify-content: center;
 }
 
 .details{
   background: var(--off-white);
-  color:  var(--green-deep);
+  color:  var(--bordeaux);
   padding: 1rem;
 }
 
 .thank-you-footer{
   font-size: 18px;
   padding: 1rem;
-}
-
-.plano{
-  position: relative;
-  height: 400px;          
-  margin: 0 auto;
-  max-width: 250px ;
-}
-
-.plan-horizontal-wrapper{
-  position: relative;
-  height: 60px;
-  width: 250px;
-  margin: 0 auto;
 }
 
 .rsvp-content{
@@ -105,14 +100,6 @@ body {
   height: auto;
   display: block;
   padding-top: 0px;
-}
-
-.plan-image {
-  position: absolute;
-  right: 0;
-  transform: translateY(-50%);
-  width: 60px;
-  z-index: 1;  
 }
 
 .plan-image-alt{
@@ -151,12 +138,6 @@ button {
   color: var(--off-white);
 }
 
-.map-button{
-  background-color: var(--off-white);
-  border: 2px solid var(--off-white);
-  color: var(--teracota);
-}
-
 a.button{
   border-radius: 4px;
   background-color: var(--off-white);
@@ -174,7 +155,7 @@ a.button{
 /*form elements */
 .rsvp-textbox{
   border: none;
-  border-bottom: 2px solid var(--green-deep);
+  border-bottom: 2px solid var(--bordeaux);
   background-color: transparent;
 }
 
@@ -184,7 +165,7 @@ a.button{
   font-size: 16px;        /* readable font */
   line-height: 18px;      /* spacing between lines */
   padding: 12px;
-  border: 2px solid var(--green-deep);;
+  border: 2px solid var(--bordeaux);;
   background-color: transparent;
 }
 
@@ -197,7 +178,7 @@ a.button{
 
 .date-time{
   font-size: 100px;
-  color: var(--green-deep);
+  color: var(--bordeaux);
 }
 
 .details-text{
@@ -210,68 +191,21 @@ a.button{
   text-align: center;
 }
 
-.text-programma {
-  position: relative;
-  width: 100px;
-  z-index: 1;
-}
-
-.text-left-align{
-  margin-right: auto;
-  margin-left: 0;
-}
-
-.text-right-align{
-  margin-left: auto;
-  margin-right: 0;
-  text-align: right
-}
-
 .rsvp-title{
   font-size: 50px;
-  font-family: "Mansalva";
+  font-family: "kreadon";
   color: var(--teracota);
   text-align: center;
   padding-top: 010px;
 }
 
-.details-heading{
-  font-size: 30px;
-  color: var(--teracota);
-  font-family: "Mansalva";
-}
-
 .handwrite{
-  font-family: "Linz";
-  color:  var(--green-deep);
+  font-family: "Junicode";
+  color:  var(--bordeaux);
 }
 
 .location {
   font-size: 30px;
-}
-
-/* grammes programmatos */
-
-.vertical-line {
-  position: absolute;
-  left: 50%;
-  height: 360px;
-  top: 0;
-  bottom: 0;
-  width: 3px;
-  background-color: var(--green-deep);
-  transform: translateX(-50%);
-  z-index: 0;
-}
-
-.horizontal-line {
-  height: 3px;
-  width: 120px;
-  background-color: var(--green-deep);
-  position: relative;
-  margin: 0 auto;
-  transform: translateY(-50%);
-  z-index: 1;
 }
 
 /*RSVP columns */
