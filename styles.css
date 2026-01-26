@@ -41,7 +41,7 @@ body {
   display: flex;
   justify-content: center;
   font-family: "kreadon";
-  font-size: 18px;
+  font-size: 12px;
 }
 
 /* Canvas Container */
@@ -65,8 +65,8 @@ body {
 }
 .invitation-main{
   background: var(--off-white);
-  color:  var(--green-deep);
-  font-size: 18px;
+  color:  var(--bordeaux);
+  font-size: 14px;
   padding: 1rem;
    font-family: "kreadon";
 }
@@ -187,10 +187,6 @@ a.button{
   text-align: center;
 }
 
-.lista-gamou{
-  text-align: center;
-}
-
 .rsvp-title{
   font-size: 50px;
   font-family: "kreadon";
@@ -202,6 +198,7 @@ a.button{
 .handwrite{
   font-family: "Junicode";
   color:  var(--bordeaux);
+  font-size: 30px;
 }
 
 .location {
