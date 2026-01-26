@@ -52,7 +52,7 @@ body {
 .front-with-names {
     color: var(--green-deep);
     background:  var(--off-white);
-    font-size: 48px;
+    font-size: 30px;
     padding: 0rem;
 }
 .invitation-main{
