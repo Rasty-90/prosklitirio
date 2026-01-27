@@ -25,6 +25,11 @@ peach = #E9C9BB
 }
 
 @font-face {
+  font-family: Junicode-bold;
+  src: url(assets/junicode/Junicode-Bold.ttf);
+}
+
+@font-face {
   font-family: kreadon;
   src: url(assets/kreadon/Kreadon-fonts/fonts/ttf/Kreadon-Regular.ttf);
 }
@@ -204,7 +209,7 @@ a.button{
 .handwrite{
   font-family: "Junicode";
   color:  var(--bordeaux);
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .location {
