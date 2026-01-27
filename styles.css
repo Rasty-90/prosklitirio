@@ -9,7 +9,7 @@ peach = #E9C9BB
 :root{
   --teracota: #da582d;
   --bordeaux: #660000;
-  --off-white: #faf0de;
+  --off-white: #F3EBE1;
   --cream: #e7c397;
   --offset-plano: 30px;
 }
@@ -82,8 +82,8 @@ body {
 }
 
 .rsvp{
-  background: var(--off-white);
-  color: var(--bordeaux);
+  background: var(--bordeaux);
+  color: var(--off-white);
   padding: 1rem 1rem 0rem 1rem;
   justify-content: center;
 }
@@ -207,7 +207,6 @@ a.button{
 
 .handwrite{
   font-family: "Junicode";
-  color:  var(--bordeaux);
   font-size: 35px;
 }
 
