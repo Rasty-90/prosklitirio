@@ -52,7 +52,6 @@ body {
   display: flex;
   justify-content: center;
   font-family: "kreadon";
-  font-size: 12px;
 }
 
 /* Canvas Container */
@@ -77,7 +76,7 @@ body {
 .invitation-main{
   background: var(--off-white);
   color:  var(--bordeaux);
-  font-size: 14px;
+  font-size: 16px;
   padding: 1rem;
   font-family: "kreadon";
 }
@@ -223,7 +222,11 @@ a.button{
 
 .plus-on-front{
   font-family: "Miamanueva";
+}
 
+.subheadings{
+  font-family: "Junicode-bold";
+  font-size: 18px;
 }
 
 /*RSVP columns */
