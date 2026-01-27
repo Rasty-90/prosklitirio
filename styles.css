@@ -156,62 +156,11 @@ a.button{
   text-decoration: none;
 }
 
-.rsvp-button{
-  background-color: var(--teracota);
-   margin: 0 auto;
-    display: block;
-}
-
-/*form elements */
-.rsvp-textbox{
-  border: none;
-  border-bottom: 2px solid var(--bordeaux);
-  background-color: transparent;
-}
-
-.notebook-textarea {
-  width: 100%;            /* full width of the container */
-  height: 70px;          /* taller area to show more text */
-  font-size: 16px;        /* readable font */
-  line-height: 18px;      /* spacing between lines */
-  padding: 12px;
-  border: 2px solid var(--bordeaux);;
-  background-color: transparent;
-}
-
 /* Text styling */
-
-.invitation-text-prosklisi{
-  text-align: center;
-  padding-top:30px;
-}
-
-.date-time{
-  font-size: 100px;
-  color: var(--bordeaux);
-}
-
-.details-text{
-  font-size: 70px;
-  color: var(--teracota);
-  text-align: center;
-}
-
-.rsvp-title{
-  font-size: 50px;
-  font-family: "kreadon";
-  color: var(--teracota);
-  text-align: center;
-  padding-top: 010px;
-}
 
 .handwrite{
   font-family: "Junicode";
   font-size: 35px;
-}
-
-.location {
-  font-size: 30px;
 }
 
 .front-text{
@@ -228,7 +177,7 @@ a.button{
   font-size: 18px;
 }
 
-/*RSVP columns */
+/*columns */
 
 .column {
   float: left;
@@ -249,20 +198,6 @@ a.button{
   justify-content: flex-end; 
 }
 
-.left-alt {
-  width: 60%;
-  height: 100%;
-}
-
-.right-alt {
-  width: 40%;
-
-}
-
 .row {
   width: 100%
-}
-
-.center {
-   width: 100%;
 }
