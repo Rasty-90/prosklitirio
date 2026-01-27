@@ -84,7 +84,7 @@ body {
 .rsvp{
   background: var(--bordeaux);
   color: var(--off-white);
-  padding: 1rem 1rem 0rem 1rem;
+  padding: 1rem 1rem 1rem 1rem;
   justify-content: center;
 }
 
