@@ -186,5 +186,12 @@ a.button{
 }
 
 .row {
-  width: 100%
+  width: 100%;
+  position: relative;
+}
+
+.left-image{
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
