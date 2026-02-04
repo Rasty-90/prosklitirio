@@ -24,10 +24,6 @@ peach = #E9C9BB
   src: url(assets/junicode/Junicode.ttf);
 }
 
-@font-face {
-  font-family: Junicode-bold;
-  src: url(assets/junicode/Junicode-Bold.ttf);
-}
 
 @font-face {
   font-family: kreadon;
@@ -160,8 +156,10 @@ a.button{
 }
 
 .subheadings{
-  font-family: "Junicode-bold";
-  font-size: 18px;
+  font-family: "Junicode";
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 3px;
 }
 
 /*columns */
