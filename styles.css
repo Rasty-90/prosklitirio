@@ -24,10 +24,6 @@ peach = #E9C9BB
   src: url(assets/junicode/Junicode.ttf);
 }
 
-@font-face {
-  font-family: Junicode-bold;
-  src: url(assets/junicode/Junicode-Bold.ttf);
-}
 
 @font-face {
   font-family: kreadon;
@@ -77,14 +73,14 @@ body {
   background: var(--off-white);
   color:  var(--bordeaux);
   font-size: 16px;
-  padding: 1rem;
+  padding: 1rem 1rem 0rem 1rem;
   font-family: "kreadon";
 }
 
 .rsvp{
-  background: var(--bordeaux);
-  color: var(--off-white);
-  padding: 1rem 1rem 1rem 1rem;
+  background: var(--off-white);
+  color: var(--bordeaux);
+  padding: 0rem 1rem 1rem 1rem;
   justify-content: center;
 }
 
@@ -118,6 +114,14 @@ body {
   padding-top: 0px;
 }
 
+.main-inv-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  padding-bottom: 0px;
+  padding-right: 0px;
+}
+
 iframe{
   width:100%;
   height:350px;
@@ -139,7 +143,7 @@ a.button{
   border-radius: 4px;
   background-color: var(--off-white);
   border: 2px solid var(--off-white);
-  color: var(--teracota);
+  color: var(--bordeaux);
   text-decoration: none;
 }
 
@@ -160,8 +164,10 @@ a.button{
 }
 
 .subheadings{
-  font-family: "Junicode-bold";
-  font-size: 18px;
+  font-family: "Junicode";
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 3px;
 }
 
 /*columns */
@@ -184,6 +190,23 @@ a.button{
   flex-direction: column;
   justify-content: flex-end; 
 }
+
+.left-main-inv {
+  width: 60%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-main-inv {
+  width: 40%;
+  height: 100%;
+  display: flex; 
+  flex-direction: column;
+  justify-content: flex-end; 
+}
+
+
 
 .row {
   width: 100%;
