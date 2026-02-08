@@ -91,7 +91,7 @@ body {
 .details{
   background: var(--off-white);
   color:  var(--bordeaux);
-  padding: 0rem 1rem 1rem 1rem;
+  padding: 0rem 1rem 0rem 1rem;
 }
 
 .thank-you-footer{
