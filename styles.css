@@ -86,8 +86,6 @@ body {
   overflow: visible;
 }
 
-
-
 .details{
   background: var(--off-white);
   color:  var(--bordeaux);
@@ -121,8 +119,8 @@ body {
 }
 
 .main-inv-image {
-  max-width: 100%;
-  height: auto;
+  max-width: auto;
+  height: 50%;
   display: block;
   padding-bottom: 0px;
   padding-right: 0px;
