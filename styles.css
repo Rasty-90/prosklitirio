@@ -80,7 +80,7 @@ body {
 .rsvp{
   background: var(--off-white);
   color: var(--bordeaux);
-  padding: 0rem 0rem 1rem 1rem;
+  padding: 1rem 1rem 1rem 1rem;
   justify-content: center;
   position: relative;
   overflow: visible;
@@ -130,7 +130,7 @@ body {
   display: block;
   position: absolute;
   left: 0;
-  top: 30%;
+  top: 40%;
   max-width: 70%;
   width: auto;
 }
@@ -173,6 +173,11 @@ a.button{
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 3px;
+}
+
+.contact-right-align{
+  text-align: right;
+
 }
 
 /*columns */
