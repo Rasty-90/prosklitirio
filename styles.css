@@ -86,10 +86,7 @@ body {
   overflow: visible;
 }
 
-/* position rsvp image to the right and behind other rsvp content */
-.rsvp-content{
 
-}
 
 .details{
   background: var(--off-white);
@@ -110,7 +107,6 @@ body {
   align-items: center;
   text-align: center;
 }
-
 
 /*images */
 
@@ -138,14 +134,6 @@ body {
   transform: translateY(-50%);
   max-width: 70%;
   width: auto;
-  z-index: 0;
-  pointer-events: none;
-}
-
-/* ensure other elements inside .rsvp sit above the image */
-.rsvp > :not(.rsvp-image){
-  position: relative;
-  z-index: 1;
 }
 
 iframe{
