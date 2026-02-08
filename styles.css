@@ -130,8 +130,7 @@ body {
   display: block;
   position: absolute;
   right: 0;
-  top: 30%;
-  transform: translateY(-50%);
+
   max-width: 70%;
   width: auto;
 }
