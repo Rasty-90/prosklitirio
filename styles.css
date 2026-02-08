@@ -80,8 +80,15 @@ body {
 .rsvp{
   background: var(--off-white);
   color: var(--bordeaux);
-  padding: 0rem 1rem 1rem 1rem;
+  padding: 0rem 0rem 1rem 1rem;
   justify-content: center;
+  position: relative;
+  overflow: visible;
+}
+
+/* position rsvp image to the right and behind other rsvp content */
+.rsvp-content{
+
 }
 
 .details{
@@ -120,6 +127,25 @@ body {
   display: block;
   padding-bottom: 0px;
   padding-right: 0px;
+}
+
+.rsvp-image{
+  height: auto;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 30%;
+  transform: translateY(-50%);
+  max-width: 70%;
+  width: auto;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* ensure other elements inside .rsvp sit above the image */
+.rsvp > :not(.rsvp-image){
+  position: relative;
+  z-index: 1;
 }
 
 iframe{
@@ -197,8 +223,6 @@ a.button{
   flex-direction: column;
   justify-content: flex-end; 
 }
-
-
 
 .row {
   width: 100%
