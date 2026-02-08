@@ -107,7 +107,8 @@ body {
   align-items: center;
   text-align: center;
   background:  var(--off-white);
-   padding: 1rem 1rem 1rem 1rem;
+  color:  var(--bordeaux);
+  padding: 1rem 1rem 1rem 1rem;
 }
 
 /*images */
