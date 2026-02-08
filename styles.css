@@ -130,7 +130,7 @@ body {
   display: block;
   position: absolute;
   right: 0;
-
+  top: 30%;
   max-width: 70%;
   width: auto;
 }
