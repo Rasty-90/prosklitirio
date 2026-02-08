@@ -107,6 +107,7 @@ body {
   align-items: center;
   text-align: center;
   background:  var(--off-white);
+   padding: 1rem 1rem 1rem 1rem;
 }
 
 /*images */
@@ -129,6 +130,7 @@ body {
 .rsvp-image{
   height: auto;
   display: block;
+  position: absolute;
   left: 0;
   max-width: 70%;
   width: auto;
