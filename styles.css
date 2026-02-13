@@ -227,6 +227,12 @@ a.button{
   justify-content: flex-end; 
 }
 
+.right-bottom {
+position: absolute;
+right: 0;
+}
+
 .row {
-  width: 100%
+  width: 100%;
+  position: relative;
 }
