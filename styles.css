@@ -94,7 +94,7 @@ body {
 
 .thank-you-footer{
   font-size: 18px;
-  padding: 1rem;
+  padding: 1rem 0rem 0rem 1rem;
 }
 
 .lista-gamou{
@@ -132,7 +132,18 @@ body {
   position: absolute;
   left: 0;
   max-width: 70%;
-  width: auto;
+}
+
+.thank-you-image{
+  max-width: 60%;
+  height: 10%;
+  display: block;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  position: relative;
+  right: 0;
+  bottom: 0;
+
 }
 
 iframe{
