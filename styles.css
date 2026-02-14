@@ -80,7 +80,7 @@ body {
 .rsvp{
   background: var(--off-white);
   color: var(--bordeaux);
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 1rem 2rem 1rem 1rem;
   justify-content: center;
   position: relative;
   overflow: visible;
@@ -95,6 +95,9 @@ body {
 .thank-you-footer{
   font-size: 18px;
   padding: 1rem 0rem 0rem 1rem;
+  justify-content: center;
+  position: relative;
+  overflow: visible;
 }
 
 .lista-gamou{
@@ -131,11 +134,17 @@ body {
   display: block;
   position: absolute;
   left: 0;
-  top:45%;
+  top:22%;
   max-width: 70%;
 }
 
 .thank-you-image{
+  height: auto;
+  display: block;
+  position: absolute;
+  max-width: 70%;
+  left: 60%;
+  top: 30%;
 }
 
 iframe{
