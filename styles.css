@@ -44,7 +44,7 @@ peach = #E9C9BB
 }
 
 body {
-  background: #f3f4f6; /* light gray */
+  background: #660000; /* light gray */
   display: flex;
   justify-content: center;
   font-family: "kreadon";
@@ -131,19 +131,11 @@ body {
   display: block;
   position: absolute;
   left: 0;
+  top:45%;
   max-width: 70%;
 }
 
 .thank-you-image{
-  max-width: 60%;
-  height: 10%;
-  display: block;
-  padding-bottom: 0px;
-  padding-right: 0px;
-  position: relative;
-  right: 0;
-  bottom: 0;
-
 }
 
 iframe{
@@ -230,6 +222,9 @@ a.button{
 .right-bottom {
 position: absolute;
 right: 0;
+bottom: 0;
+display: flex; 
+justify-content: flex-end; 
 }
 
 .row {
